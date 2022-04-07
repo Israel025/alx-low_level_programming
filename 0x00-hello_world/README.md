@@ -16,3 +16,8 @@
 ** The 3-name script compiles a C file and creates an executable named cisfun.
     assuming the C file name will be saved in the variable $CFILE
 
+** The 4-puts.c program prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+    Using the function puts (printf is not used) and the program ends with the value 0.
+
+
+
