@@ -21,3 +21,5 @@
 
 ** The 5-printf.c program prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line using the function printf (not using function puts), the program return 0. The program should compile without warning when using the -Wall gcc option.
 
+** The 6-size.c program prints the size of various types on the computer it is compiled and run on. Warnings are allowed and the program should return 0
+
