@@ -19,5 +19,5 @@
 ** The 4-puts.c program prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
     Using the function puts (printf is not used) and the program ends with the value 0.
 
-
+** The 5-printf.c program prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line using the function printf (not using function puts), the program return 0. The program should compile without warning when using the -Wall gcc option.
 
