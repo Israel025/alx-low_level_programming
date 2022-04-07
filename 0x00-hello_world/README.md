@@ -13,4 +13,6 @@
     The output file would be named the same as the C file, but with the extension .s instead of .c.
         Example: if the C file is main.c, the output file would be main.s
 
+** The 3-name script compiles a C file and creates an executable named cisfun.
+    assuming the C file name will be saved in the variable $CFILE
 
