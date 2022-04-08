@@ -31,5 +31,8 @@
     assuming the C file name is saved in the variable $CFILE.
     The output file should be named the same as the C file, but with the extension .s instead of .c. 
 
+** The 101-quote.c program prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error. without using any functions listed in the NAME section of the man (3) printf or man (3) puts, the program should return 1
+
+
 
 
