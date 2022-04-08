@@ -15,7 +15,7 @@ int main(void)
 
 	for (k = 0; k < 8; k++)
 	{
-		for (i = ( k + 1); i < 9; i++)
+		for (i = (k + 1); i < 9; i++)
 		{
 			for (j = (i + 1); j < 10; j++)
 			{
@@ -35,5 +35,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
