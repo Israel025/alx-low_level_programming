@@ -9,4 +9,4 @@
         if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0
     followed by a new line.
 
-
+** The 1-last_digit.c program prints the alphabet in lowercase, followed by a new line. using only the putchar function, all code is in the main function. (couls only use putchar twice in your code)
