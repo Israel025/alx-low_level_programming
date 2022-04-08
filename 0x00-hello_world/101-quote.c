@@ -9,7 +9,6 @@
 int main(void)
 {
 	char st[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	
-	write(STDERR_FILENO, st, sizeof(st));
+	write(STDERR_2, st, sizeof(st));
 	return (1);
 }
