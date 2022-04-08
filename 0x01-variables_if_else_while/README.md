@@ -13,5 +13,6 @@
 
 ** The 3-print_alphabets.c program prints the alphabet in lowercase, and then in uppercase, followed by a new line. using only the putchar function, all code is in the main function. (could only use putchar 3x in your code).
 
+** The 4-print_alphabt.c program prints the alphabet in lowercase, followed by a new line. Printing all the letters except q and e using only the putchar function, all code is in the main function. (could only use putchar 2x in your code).
 
 
