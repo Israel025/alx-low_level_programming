@@ -25,5 +25,10 @@
 
 ** The 9-print_comb.c program prints all possible combinations of single-digit numbers. Numbers are separated by , followed by a space, Numbers are printed in ascending order, only use the putchar function and, can only use putchar four times in your code.
 
+====================ADVANCED TASKS================
+==================================================
+
+** The 100-print_comb3.c program prints  prints all possible different combinations of two digits. Numbers should be printed in ascending order, with two digits. Numbers are separated by , followed by a space, Numbers are printed in ascending order, only use the putchar function and, can only use putchar four times in your code. The two digits must be different 01 and 10 are considered the same combination of the two digits 0 and 1 Print only the smallest combination of two digits
+
 
 
