@@ -13,10 +13,10 @@ int main(void)
 	/* your code goes there */
 	switch(n > 0)
 	{
-		case true :
+		case 'true' :
 			printf("%d is positive\n", n);
 			break;
-		case false :
+		case 'false' :
 			printf("%d is negative\n", n);
 			break;
 		default :
