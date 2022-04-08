@@ -19,3 +19,6 @@
 
 ** The 6-print_numberz.c program prints all single digit numbers of base 10 starting from 0, followed by a new line.no use of any variable of type char, only use the putchar function and, can only use putchar twice in your code.
 
+** The 7-print_tebahpla.c program prints the lowercase alphabet in reverse, followed by a new line. only use the putchar function and, can only use putchar twice in your code.
+
+
