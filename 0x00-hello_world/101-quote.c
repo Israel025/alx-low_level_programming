@@ -10,8 +10,6 @@
 int main(void)
 {
 	char st[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	
 	write(2, st, sizeof(st));
-	
-	return (0);
+	return (1);
 }
