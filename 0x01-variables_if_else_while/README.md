@@ -15,4 +15,7 @@
 
 ** The 4-print_alphabt.c program prints the alphabet in lowercase, followed by a new line. Printing all the letters except q and e using only the putchar function, all code is in the main function. (could only use putchar 2x in your code).
 
+** The 5-print_numbers.c program prints all single digit numbers of base 10 starting from 0, followed by a new line.
+
+
 
