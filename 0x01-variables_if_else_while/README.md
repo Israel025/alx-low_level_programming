@@ -23,6 +23,7 @@
 
 ** The 8-print_base16.c program prints all the numbers of base 16 in lowercase, followed by a new line. only use the putchar function and, can only use putchar three times in your code.
 
+** The 9-print_comb.c program prints all possible combinations of single-digit numbers. Numbers are separated by , followed by a space, Numbers are printed in ascending order, only use the putchar function and, can only use putchar four times in your code.
 
 
 
