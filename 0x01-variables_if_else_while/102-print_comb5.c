@@ -21,6 +21,10 @@ int main(void)
 			{
 				for (j = 0; j < 10; j++)
 				{
+					if ((h == 0) && (k == 0) && (i == 0) && (j == 0))
+					{
+						continue;
+					}
 					putchar(48 + h);
 					putchar(48 + k);
 					putchar(' ');
