@@ -33,5 +33,7 @@
 
 ** The 101-print_comb4.c program prints prints all possible different combinations of three digits(0,1,and 2). Numbers should be printed in ascending order, Numbers are separated by , followed by a space, Numbers are printed in ascending order, only use the putchar function and, can only use putchar six times in your code.
 
+** The 102-print_comb5.c program prints printsprints all possible combinations of two two-digit numbers. Numbers, Numbers are separated by , followed by a space, Numbers are printed in ascending order, only use the putchar function and, can only use putchar eight times in your code.
+
 
 
