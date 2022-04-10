@@ -11,7 +11,7 @@ int main(void)
 	char nl[] = "\n";
 	char st[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
-	write(stderr, st, sizeof(st));
+	write(2, st, sizeof(st));
 	write(2, nl, sizeof(nl));
 	return (1);
 }
