@@ -13,31 +13,32 @@ int main(void)
 {
 	int h, k, i, j;
 
-	for (h = 0; h < 10; h++)
+	for (h = 48; h < 58; h++)
 	{
-		for (k = 0; k < 9; k++)
+		for (k = 48; k < 58; k++)
 		{
-			for (i = 0; i < 10; i++)
+			for (i = 48; i < 58; i++)
 			{
-				for (j = 0; j < 10; j++)
+				for(j = 48; j < 58; j++)
 				{
-					if ((h == 0) && (k == 0) && (i == 0) && (j == 0))
+					int x = (h * 10) + k;
+					int y = (i * 10) + j;
+					if (x < y)
 					{
-						continue;
-					}
-					putchar(48 + h);
-					putchar(48 + k);
-					putchar(' ');
-					putchar(48 + i);
-					putchar(48 + j);
-					if ((h == 9) && (k == 8) && (i == 9) && (j == 9))
-					{
-						continue;
-					}
-					else
-					{
-						putchar(',');
+						putchar(h);
+						putchar(k);
 						putchar(' ');
+						putchar(i);
+						putchar(j);
+						if ((h == 57) && (k == 56) && (i == 57) && (j == 57))
+						{
+							continue;
+						}
+						else
+						{
+							putchar(',');
+							putchar(' ');
+						}
 					}
 				}
 			}
