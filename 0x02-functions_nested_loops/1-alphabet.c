@@ -1,13 +1,11 @@
 #include "main.h"
 
-/* print_alphabet funtion specially prints alphabets uniquely */
-
 /**
- * print_alphabet prints out all of the letters
- * of the alphabet in small caps, followed by new line
+ * print_alphabet - prints the alphabet in small caps
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Description: This function prints out all of the letters
+ * of the alphabet in small caps, followed by new line.
+ * its a void function, does not return anything
  */
 void print_alphabet(void)
 {
