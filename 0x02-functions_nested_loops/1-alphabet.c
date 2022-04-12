@@ -1,5 +1,7 @@
 #include "main.h"
 
+/*funtion to print alphabets */
+
 /**
  * print_alphabet prints out all of the letters
  * of the alphabet in small caps, followed by new line
