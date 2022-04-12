@@ -3,7 +3,8 @@
 /* funtion file for print_alphabet function */
 
 /**
- * prints the alphabet, in lowercase followed by new line
+ * prints the all the 26 alphabets,
+ * in lowercase followed by new line
  */
 void print_alphabet(void)
 {
