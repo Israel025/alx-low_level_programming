@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*funtion to print alphabets */
+/* print_alphabet funtion specially prints alphabets uniquely */
 
 /**
  * print_alphabet prints out all of the letters
