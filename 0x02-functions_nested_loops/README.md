@@ -12,4 +12,4 @@
 
 ** The 6-abs.c program pcomputes the absolute value of an integer.
 
-
+** The 7-print_last_digit.c program prints the last digit of a number.
