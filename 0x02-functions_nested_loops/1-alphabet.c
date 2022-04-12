@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  *prints the alphabet, in lowercase
  *followed by new line
