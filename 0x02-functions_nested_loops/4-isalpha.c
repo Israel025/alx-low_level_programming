@@ -8,7 +8,7 @@
  * an alphabet.
  * Return: 1 if the character is in lowercase and 0 otherwise
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	return ((c > 96 && c < 123) || (c > 64  && c < 91));
 }
