@@ -5,3 +5,7 @@
 ** The 2-print_alphabet_x10.c program prints 10 times the alphabet, in lowercase, followed by a new line. _putchar function was use only twice.
 
 ** The 3-islower.c program checks for lowercase character then Returns 1 if c is lowercase and Returns 0 otherwise.
+
+** The 4-isalpha.c program checks checks for alphabetic character. then Returns 1 if c is lowercase and Returns 0 otherwise.
+
+
