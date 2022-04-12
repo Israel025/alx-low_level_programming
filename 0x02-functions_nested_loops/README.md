@@ -8,4 +8,6 @@
 
 ** The 4-isalpha.c program checks checks for alphabetic character. then Returns 1 if c is lowercase and Returns 0 otherwise.
 
+** The 5-sign.c program prints the sign of a number. Returns 1 and prints + if n is greater than zero, Returns 0 and prints 0 if n is zero and, Returns -1 and prints - if n is less than zero.
+
 
