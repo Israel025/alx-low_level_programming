@@ -1,10 +1,11 @@
 #include "main.h"
 
-/* funtion file for print_alphabet function */
-
 /**
- * prints the all the 26 alphabets,
- * in lowercase followed by new line
+ * print_alphabet prints out all of the letters
+ * of the alphabet in small caps, followed by new line
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 void print_alphabet(void)
 {
