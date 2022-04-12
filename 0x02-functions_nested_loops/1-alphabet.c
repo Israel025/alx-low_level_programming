@@ -1,4 +1,3 @@
-#include "_putchar.c"
 /**
  *prints the alphabet, in lowercase
  *followed by new line
