@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -12,34 +11,33 @@
  */
 void print_to_98(int n)
 {
-int ct;
 
 if (n > 98)
 {
-	for (ct = n; ct >= 98; ct--)
+	for (n = n; n >= 98; n--)
 	{
-		if (ct == 98)
+		if (n == 98)
 		{
-			printf("%d", ct);
+			printf("%d", n);
 		}
 		else
 		{
-			printf("%d, ", ct);
+			printf("%d, ", n);
 		}
 	}
 	putchar('\n');
 }
 else if (n < 98)
 {
-	for (ct = n; ct <= 98; ct++)
+	for (n = n; n <= 98; n++)
 	{
-		if (ct == 98)
+		if (n == 98)
 		{
-			printf("%d", ct);
+			printf("%d", n);
 		}
 		else
 		{
-			printf("%d, ", ct);
+			printf("%d, ", n);
 		}
 	}
 	putchar('\n');
