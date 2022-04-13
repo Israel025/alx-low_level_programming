@@ -1,21 +1,47 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- * _abs - prints the absolute value of a number.
- * @n: The character to be checked
+ * @n: The integral number to be used as starting point. 
  *
- * Description: This function checks any number and
- * and print its absolute value.
- * Return: the unsigned value of integer number entered
+ * Description: This function printts all natural numbers from any
+ * number to 98 (either backwards or forward).
+ * Return: this is a void function no value(s) returned
  */
-int _abs(int n)
+void print_to_98(int n)
 {
-	if (n >= 0)
-	{
-		return (n);
-	}
-	else
-	{
-		return (-1 * n);
-	}
+	if (n > 98)
+        {
+                for (n = n; n >= 98; n--)
+                {
+                        if (n == 98)
+                        {
+                                printf("%d", n);
+                        }
+                        else
+                        {
+                                printf("%d, ", n);
+                        }
+                }
+                putchar('\n');
+        }
+        else if (n < 98)
+        {
+                for (n = n; n <= 98; n++)
+                {
+                        if (n == 98)
+                        {
+                                printf("%d", n);
+                        }
+                        else
+                        {
+                                printf("%d, ", n);
+                        }
+                }
+                putchar('\n');
+        }
+        else
+        {
+                printf("%d\n", n);
+        }
 }
