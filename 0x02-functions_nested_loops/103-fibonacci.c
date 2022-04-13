@@ -21,7 +21,7 @@ while (fbn <= 4000000)
 	fbn = seed1 + seed2;
 	seed1 = seed2;
 	seed2 = fbn;
-	if((seed1 % 2) == 0)
+	if ((seed1 % 2) == 0)
 	{
 		accum += seed1;
 	}
