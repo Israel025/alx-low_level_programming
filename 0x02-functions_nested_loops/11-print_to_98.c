@@ -2,9 +2,10 @@
 #include "main.h"
 
 /**
- * @n: The integral number to be used as starting point. 
+ * print_to_98 - prints from any number n to 98.
+ * @n: The integral number to be used as starting point.
  *
- * Description: This function printts all natural numbers from any
+ * Description: This function prints all natural numbers from any
  * number to 98 (either backwards or forward).
  * Return: this is a void function no value(s) returned
  */
