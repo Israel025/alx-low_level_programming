@@ -20,3 +20,4 @@
 
 ** The 10-add.c program adds two integers and returns the result.
 
+** The 10-add.c program prints all natural numbers from n to 98, followed by a new line. Numbers are separated by a comma, followed by a space, are printed in order, first printed number would be the number passed to the function, last printed number would be 98.
