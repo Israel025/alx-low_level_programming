@@ -10,15 +10,16 @@
  */
 int main(void)
 {
-int i, fbn;
-int seed1 = 1;
-int seed2 = 2;
+int i;
+long int seed1, seed2, fbn;
+seed1 = 1;
+seed2 = 2;
 
-printf("%d, %d", seed1, seed2);
+printf("%ld, %ld", seed1, seed2);
 for (i = 0; i < 48; i++)
 {
 	fbn = seed1 + seed2;
-	printf(", %d", fbn);
+	printf(", %ld", fbn);
 	seed1 = seed2;
 	seed2 = fbn;
 }
