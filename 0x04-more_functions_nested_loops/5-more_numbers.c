@@ -16,6 +16,7 @@ void more_numbers(void)
 		for(j = 0; j < 15; j++)
 		{
 			hold1 = j;
+
 			if (j > 9)
 			{
 				hold1 = j / 10;
