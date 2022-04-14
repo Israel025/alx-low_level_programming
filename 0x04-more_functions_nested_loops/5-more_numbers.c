@@ -9,7 +9,9 @@
  */
 void more_numbers(void)
 {
-	int i, j, hold1, hold2;
+	int i, j;
+	int hold1 = 0;
+	int hold2 = 0;
 
 	for (i = 0; i < 10; i++)
 	{
@@ -22,7 +24,6 @@ void more_numbers(void)
 				hold2 = j % 10;
 			}
 			_putchar(hold1 + '0');
-
 			if (j > 9)
 			{
 				_putchar(hold2 + '0');
