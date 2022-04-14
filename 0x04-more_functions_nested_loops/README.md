@@ -12,4 +12,7 @@
 
 ** The 6-print_line.c function program draws a straight line in the terminal.only using _putchar function to print.  Where n is the number of times the character _ would be printed. The line should end with a \n and If n is 0 or less, the function only prints \n.
 
-** The 6-print_line.c function program draws a diagonal line on the terminal.only using _putchar function to print.  Where n is the number of times the character \ would be printed. The line should end with a \n and If n is 0 or less, the function only prints \n.
+** The 7-print_diagonal.c function program draws a diagonal line on the terminal.only using _putchar function to print.  Where n is the number of times the character \ would be printed. The line should end with a \n and If n is 0 or less, the function only prints \n.
+
+** The 8-print_square.c function program prints a square on the terminal.only using _putchar function to print.  Where size is the size of the square. The line should end with a \n and If size is 0 or less, the function only prints \n.
+
