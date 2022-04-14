@@ -22,7 +22,9 @@ void more_numbers(void)
 				hold1 = j / 10;
 				hold2 = j % 10;
 			}
+
 			_putchar(hold1 + '0');
+
 			if (j > 9)
 			{
 				_putchar(hold2 + '0');
