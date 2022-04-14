@@ -26,9 +26,7 @@ void more_numbers(void)
 			}
 			_putchar(hold1 + '0');
 			if (j > 9)
-			{
 				_putchar(hold2 + '0');
-			}
 		}
 		_putchar('\n');
 	}
