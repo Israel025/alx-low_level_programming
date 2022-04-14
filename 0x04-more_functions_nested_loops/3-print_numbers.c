@@ -5,7 +5,7 @@
  *
  * Description: This function prints all numbers
  * from 0 through 9, followed by a new line.
- * Return: no return value, this is a void function
+ * Return: void,  no return value.
  */
 void print_numbers(void)
 {
