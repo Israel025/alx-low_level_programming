@@ -9,7 +9,7 @@
  * given integer numbers
  * Return: the result
  */
-int _isdigit(int a, int b)
+int mul(int a, int b)
 {
 	return (a * b);
 }
