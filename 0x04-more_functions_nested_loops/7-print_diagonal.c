@@ -6,7 +6,7 @@
  *
  * Description: does as explained above ending
  * with a new line.
- * Return: void,  no return value.
+ * Return: void, no return value.
  */
 void print_diagonal(int n)
 {
@@ -18,16 +18,18 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (i = 1; i <= n; i++)
+		for (i = 0; i < n; i++)
 		{
 			_putchar(92);
 			_putchar('\n');
-			if (i >= 1)
+			if ((i + 1) == n)
 			{
-				for (k = 0; k < i; k++)
-				{
+				continue;
+			}
+			else
+			{
+				for (k = 0; k < (i + 1); k++)
 					_putchar(' ');
-				}
 			}
 		}
 	}
