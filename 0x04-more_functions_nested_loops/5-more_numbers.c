@@ -9,7 +9,7 @@
  */
 void more_numbers(void)
 {
-	int i, j, hol1, hold2;
+	int i, j, hold1, hold2;
 
 	for (i = 0; i < 10; i++)
 	{
