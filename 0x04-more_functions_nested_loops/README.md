@@ -16,5 +16,7 @@
 
 ** The 8-print_square.c function program prints a square on the terminal.only using _putchar function to print.  Where size is the size of the square. The line should end with a \n and If size is 0 or less, the function only prints \n.
 
-** The 9-fizz_buzz.c function program prints the numbers from 1 to 100, followed by a new line. But for multiples of three, Fizz is printed instead and for the multiples of five Buzz is printed. For numbers which are multiples of both three and five, FizzBuzz is printed. Each number or word are separated by a space.
+** The 9-fizz_buzz.c program prints the numbers from 1 to 100, followed by a new line. But for multiples of three, Fizz is printed instead and for the multiples of five Buzz is printed. For numbers which are multiples of both three and five, FizzBuzz is printed. Each number or word are separated by a space.
+
+** The 10-print_triangle.c function program prints a triangle, followed by a new line. using only _putchar function to print. size is the size of the triangle and if it's less than or equal to zero, only a new line would be printed. 
 
