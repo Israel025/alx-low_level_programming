@@ -11,7 +11,7 @@
  */
 int main(void)
 {
-	int i = 2;
+	long i = 2;
 	long num = 612852475143;
 
 	while (num > 1)
