@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 
 /**
  * main - prints the highest prime factor
@@ -18,9 +17,13 @@ int main(void)
 	while (num > 1)
 	{
 		if (num % i == 0)
+		{
 			num /= i;
+		}
 		else
+		{
 			i++;
+		}
 	}
 	printf("%lu\n", i);
 	return (0);
