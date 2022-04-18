@@ -21,8 +21,8 @@
 ** The 10-print_triangle.c function program prints a triangle, followed by a new line. using only _putchar function to print. size is the size of the triangle and if it's less than or equal to zero, only a new line would be printed. 
 
 
-========================ADVANCED TASKS========================
-==============================================================
+==============ADVANCED TASKS==================
+==============================================
 
 ** The 100-prime_factor.c function program finds and prints the largest prime factor of the number 612852475143, followed by a new line.
 
