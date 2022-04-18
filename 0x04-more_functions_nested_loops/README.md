@@ -26,3 +26,4 @@
 
 ** The 100-prime_factor.c function program finds and prints the largest prime factor of the number 612852475143, followed by a new line.
 
+** The 101-print_number.c function program prints an integer.only using _putchar function to print, without the use of long, arrays, pointers or hard-coding special values.
