@@ -22,7 +22,8 @@ void puts_half(char *str)
 		for (i = evenStart; i < len; i++)
 			_putchar(str[i]);
 	}
-	else
+
+	if (len % 2 == 1)
 	{
 		for (i = oddStart; i < len; i++)
 			_putchar(str[i]);
