@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - resets an int variable to 98 using pointer.
- * @*n: The pointer variable
+ * @n: The pointer resetter  variable
  *
  * Description: functions as described above
  * Return: void
