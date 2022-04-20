@@ -21,3 +21,7 @@
 
 ================ADVANCED TASKS====================
 ==================================================
+
+** The 101-keygen.c function program generates random valid passwords for the program 101-crackme.
+
+
