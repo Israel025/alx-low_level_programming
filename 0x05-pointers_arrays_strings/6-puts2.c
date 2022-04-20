@@ -1,3 +1,4 @@
+#include <string.h>
 #include "main.h"
 
 /**
@@ -11,13 +12,14 @@
  */
 void puts2(char *str)
 {
-	int index;
+	int i;
 
-	index = 0;
-	while (str[index] != '\0')
+	for (i = 0; i < strlen(str); i++)
 	{
-		_putchar(str[index]);
-		index += 2;
+		if (i % 2 == 0)
+			_putchar(str[i]);
+		else
+			continue;
 	}
 	_putchar('\n');
 }
