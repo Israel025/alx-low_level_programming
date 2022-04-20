@@ -4,4 +4,6 @@
 
 ** The 2-strlen.c function program returns the length of a string.
 
+** The 3-puts.c function program prints a string, followed by a new line, to stdout.
+
 
