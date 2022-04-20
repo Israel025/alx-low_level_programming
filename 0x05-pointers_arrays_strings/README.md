@@ -2,4 +2,6 @@
 
 ** The 1-swap.c function program swaps the values of two integers.
 
+** The 2-strlen.c function program returns the length of a string.
+
 
