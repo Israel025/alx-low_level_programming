@@ -13,7 +13,7 @@ void print_rev(char *str)
 {
 	int index;
 
-	index = strlen(str) - 1;
+	index = strlen(str);
 	while (str[index] >= 0)
 	{
 		_putchar(str[index]);
