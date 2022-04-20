@@ -1,3 +1,4 @@
+#include <string.h>
 #include "main.h"
 
 /**
@@ -12,7 +13,7 @@ void print_rev(char *str)
 {
 	int index;
 
-	index = _strlen(*str) - 1;
+	index = strlen(str) - 1;
 	while (str[index] >= 0)
 	{
 		_putchar(str[index]);
