@@ -14,7 +14,10 @@
 
 ** The 7-puts_half.c function program prints half of a string, followed by a new line, printing the second half of the string. where n = (length_of_the_string - 1) / 2.
 
-** The 7-puts_half.c function program prints n elements of an array of integers, followed by a new line. Numbers are separated by comma, followed by a space and are displayed in the same order as they are stored in the array.
+** The 8-print_array.c function program prints n elements of an array of integers, followed by a new line. Numbers are separated by comma, followed by a space and are displayed in the same order as they are stored in the array.
+
+** The 9-strcpy.c function program copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
 
 
-
+================ADVANCED TASKS====================
+==================================================
