@@ -12,7 +12,7 @@ int _strlen(char *s)
 {
 	int count;
 
-	for (count = 0; count < strlen(n); count++)
+	for (count = 0; count < strlen(s); count++)
 		continue;
 
 	return (count);
