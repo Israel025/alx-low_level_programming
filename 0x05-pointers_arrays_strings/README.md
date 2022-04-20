@@ -12,4 +12,6 @@
 
 ** The 6-puts2.c function program prints every other character of a string, starting with the first character, followed by a new line.
 
+** The 7-puts_half.c function program prints half of a string, followed by a new line, printing the second half of the string. where n = (length_of_the_string - 1) / 2.
+
 
