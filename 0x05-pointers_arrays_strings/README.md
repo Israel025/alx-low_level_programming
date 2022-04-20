@@ -8,4 +8,6 @@
 
 ** The 4-print_rev.c function program prints a string, in reverse, followed by a new line.
 
+** The 5-rev_string.c function program reverses a string.
+
 
