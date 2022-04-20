@@ -11,16 +11,9 @@
  */
 void print_rev(char *str)
 {
-	int len, j;
+	int len;
 
-	len = 0;
-
-	while (str[len] != '\0')
-	{
-		len++;
-	}
-
-	for (j = len - 1; j >= 0; j--)
+	for (len = strlen(str) - 1; len >= 0; len--)
 	{
 		_putchar(str[j]);
 	}
