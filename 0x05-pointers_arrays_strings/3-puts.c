@@ -8,7 +8,7 @@
  * followe by a new line.
  * Return: void, no return value.
  */
-int _puts(char *str)
+void _puts(char *str)
 {
 	int itr;
 
