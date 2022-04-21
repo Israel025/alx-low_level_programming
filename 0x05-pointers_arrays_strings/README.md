@@ -22,6 +22,7 @@
 ================ADVANCED TASKS====================
 ==================================================
 
-** The 101-keygen.c function program generates random valid passwords for the program 101-crackme.
+** The 100-atoi.c function program convert a string to an integer.
 
+** The 101-keygen.c function program generates random valid passwords for the program 101-crackme.
 
