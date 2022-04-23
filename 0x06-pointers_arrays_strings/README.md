@@ -6,3 +6,5 @@
 ** The 2-strncpy.c function program copies a string. works exactly like strncpy.
 
 ** The 3-strcmp.c function program compares two strings. Works exactly like strncpy.
+
+** The 4-rev_array.c function program reverses the content of an array of integers.
