@@ -20,4 +20,5 @@ char *string_toupper(char *str)
 
 		j++
 	}
+	return (str);
 }
