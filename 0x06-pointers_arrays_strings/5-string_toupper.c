@@ -16,7 +16,7 @@ char *string_toupper(char *str)
 	while (str[j] != '\0')
 	{
 		if (str[j] > 96 && str[j] < 123)
-			str[j] = str[j] - '32';
+			str[j] = str[j] - 32;
 
 		j++;
 	}
