@@ -10,3 +10,5 @@
 ** The 4-rev_array.c function program reverses the content of an array of integers.
 
 ** The 5-string_toupper.c function program changes all lowercase letters of a string to uppercase.
+
+** The 6-cap_string.c function program capitalizes all words of a string. Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }.
