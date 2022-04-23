@@ -8,3 +8,5 @@
 ** The 3-strcmp.c function program compares two strings. Works exactly like strncpy.
 
 ** The 4-rev_array.c function program reverses the content of an array of integers.
+
+** The 5-string_toupper.c function program changes all lowercase letters of a string to uppercase.
