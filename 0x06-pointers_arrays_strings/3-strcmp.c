@@ -10,28 +10,28 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int cmp;
+	int j, cmp;
 
-	if (s1[0] > s2[0])
+	j = 0;
+	cmp = 0;
+
+	while (s1[j] || s2[j])
 	{
-		cmp = s1[0] - s2[0];
-	}
-	else if (s1[0] < s2[0])
-	{
-		cmp = s1[0] - s2[0];
-	}
-	else if (s1[0] == s2[0])
-	{
-		cmp = s1[0] - s2[0];
-	}
-	else
-	{
-		if (s1 > s2)
-			cmp = s1 - s2;
-		else if (s1 < s2)
-			cmp = s1 - s2;
-		else if (s1 == s2)
-			cmp = s1 - s2;
+		if (s1[j] == s2)
+		{
+			continue;
+		}
+		else if (s1[j] > s2[j])
+		{
+			cmp = s1[j] - s2[j];
+			break;
+		}
+		else if (s1[j] < s2[j])
+		{
+			cmp = s1[j] - s2[j];
+			break;
+		}
+		j++;
 	}
 	return (cmp);
 }
