@@ -12,7 +12,7 @@ int _strlen(char *k)
 	int count, itr;
 
 	count = 0;
-	for (itr = 0; n[itr] != '\0'; itr++)
+	for (itr = 0; k[itr] != '\0'; itr++)
 		count++;
 	return (count);
 }
