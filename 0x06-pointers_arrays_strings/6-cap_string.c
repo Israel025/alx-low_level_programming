@@ -10,31 +10,31 @@
  */
 char *cap_string(char *str)
 {
-	int j;
+int j;
 
-	j = 0;
-	while (str[j] != '\0')
+j = 0;
+while (str[j] != '\0')
+{
+	switch (str[j])
 	{
-		switch (str[j])
-		{
-			case ' ':
-			case '\t':
-			case '\n':
-			case ',':
-			case ';':
-			case '.':
-			case '!':
-			case '?':
-			case '"':
-			case '(':
-			case ')':
-			case '{':
-			case '}':
-				if (str[j + 1] > 96 && str[j + 1] < 123)
-					str[j + 1] = str[j + 1] - 32;
-				break;
-		}
-		j++;
+		case ' ':
+		case '\t':
+		case '\n':
+		case ',':
+		case ';':
+		case '.':
+		case '!':
+		case '?':
+		case '"':
+		case '(':
+		case ')':
+		case '{':
+		case '}':
+			if (str[j + 1] > 96 && str[j + 1] < 123 && str[j + 1] != '\0')
+				str[j + 1] = str[j + 1] - 32;
+			break;
 	}
-	return (str);
+	j++;
+}
+return (str);
 }
