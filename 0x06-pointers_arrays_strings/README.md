@@ -26,4 +26,5 @@
 
 ** The 100-rot13.c function program encodes a string using rot13. making use of only one if statement, only use two loops, no switch statement and no ternary operation.
 
+** The 101-print_number.c function program that prints an integer. using only _putchar function to print.
 
