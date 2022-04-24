@@ -21,3 +21,9 @@
     Letters l and L should be replaced by 1.
 
 
+================ADVANCED TASKS==============
+============================================
+
+** The 100-rot13.c function program encodes a string using rot13. making use of only one if statement, only use two loops, no switch statement and no ternary operation.
+
+
