@@ -30,4 +30,6 @@
 
 ** The 102-magic.c program prints a[2] = 98, followed by a new line. (the code was already written, just needed to add a single line of code to make it work as expected).
 
+** The 103-infinite_add.c function program adds two numbers.
+
 
