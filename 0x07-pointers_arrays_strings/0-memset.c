@@ -9,3 +9,15 @@
  * Description: functions as described above
  * Return: a pointer to the resulting char s.
  */
+char *_memset(char *s, char b, unsigned int n)
+{
+	int i;
+
+	i = 0;
+	while (i < n)
+	{
+		s[i] = b;
+		i++;
+	}
+	return (s);
+}
