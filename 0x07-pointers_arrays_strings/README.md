@@ -10,3 +10,5 @@
 
 ** The 5-strstr.c function program  locates a substring.
 
+** The 7-print_chessboard.c function program prints the chessboard.
+
