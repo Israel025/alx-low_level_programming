@@ -6,4 +6,7 @@
 
 ** The 3-strspn.c function program gets the length of a prefix substring.
 
-** The 4-strpbrk.c function program searches a string for any of a set of bytes.
+** The 4-strpbrk.c function program searches a string for any of a set of bytes
+
+** The 5-strstr.c function program  locates a substring.
+
