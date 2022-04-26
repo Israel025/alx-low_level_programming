@@ -7,17 +7,15 @@
  * @n: Amount of memory bytes
  *
  * Description: functions as described above
- * Return: a pointer to the resulting string dest.
+ * Return: a pointer to the resulting char s.
  */
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
-	i = 0;
-	while (i < n)
+	for (i = 0; i  < n; i++)
 	{
 		*(s + i) = b;
-		i++;
 	}
 	return (s);
 }
