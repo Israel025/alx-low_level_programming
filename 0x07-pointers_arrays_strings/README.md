@@ -12,3 +12,5 @@
 
 ** The 7-print_chessboard.c function program prints the chessboard.
 
+** The 8-print_diagsums.c function program prints the sum of the two diagonals of a square matrix of integers.
+
