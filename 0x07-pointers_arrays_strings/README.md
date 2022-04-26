@@ -4,3 +4,4 @@
 
 ** The 2-strchr.c function program locates a character in a string.
 
+** The 3-strspn.c function program gets the length of a prefix substring.
