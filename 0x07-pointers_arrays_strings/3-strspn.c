@@ -16,7 +16,7 @@ unsigned int _strspn(char *s, char *accept)
 	ret = 0;
 	str_s = s;
 	str_ac = accept;
-	
+
 	i = 0;
 	while (str_s[i] != '\0')
 	{
