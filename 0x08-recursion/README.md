@@ -4,6 +4,8 @@
 
 ** The 2-strlen_recursion.c funtion program file returns the length of a string. (using recursion).
 
+** The 3-factorial.c funtion program file returns the factorial of a given number. (using recursion).
+
 ===============ADVANCED TASKS===================
 ================================================
 
