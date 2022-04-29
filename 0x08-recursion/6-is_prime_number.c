@@ -10,17 +10,14 @@
  */
 int primeEval(int n, int j)
 {
-	if (n < 2)
-		return (0);
-	if (n == 2)
-		return (1);
-	if (j >= 2)
+	if (n % j == 0)
 	{
-		if (n % j > 0)
-			primeEval(n, j - 1);
+		if (n == j)
+			return (1);
+		else
+			return (0);
 	}
-	if (j == 1)
-		return (1);
+	return (0 + is_prime(n, j + 1));
 }
 /**
  * is_prime_number - Checks if a number is prime or not.
@@ -31,5 +28,11 @@ int primeEval(int n, int j)
  */
 int is_prime_number(int n)
 {
-	return (primeEval(n, n - 1));
+	if (n == 0)
+		return (0);
+	if (n < 0)
+		return (0);
+	if (n == 1)
+		return (0);
+	return (primeEval(n, 2));
 }
