@@ -6,6 +6,8 @@
 
 ** The 3-factorial.c funtion program file returns the factorial of a given number. (using recursion).
 
+** The 4-pow_recursion.c funtion program file returns the value of x raised to the power of y. (using recursion).
+
 ===============ADVANCED TASKS===================
 ================================================
 
