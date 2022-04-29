@@ -17,7 +17,7 @@ int primeEval(int n, int j)
 		else
 			return (0);
 	}
-	return (0 + is_prime(n, j + 1));
+	return (0 + primeEval(n, j + 1));
 }
 /**
  * is_prime_number - Checks if a number is prime or not.
