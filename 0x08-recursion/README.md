@@ -15,4 +15,7 @@
 ===============ADVANCED TASKS===================
 ================================================
 
+** The 100-is_palindrome.c funtion program file returns 1 if a string is a palindrome and 0 if not.
+
+** The 101-wildcmp.c funtion program file compares two strings and returns 1 if the strings can be considered identical, otherwise return 0.
 
