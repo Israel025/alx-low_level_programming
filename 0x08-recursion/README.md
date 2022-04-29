@@ -8,6 +8,8 @@
 
 ** The 4-pow_recursion.c funtion program file returns the value of x raised to the power of y. (using recursion).
 
+** The 5-sqrt_recursion.c funtion program file returns the natural square root of a number. (using recursion).
+
 ===============ADVANCED TASKS===================
 ================================================
 
