@@ -1,35 +1,22 @@
 #include "main.h"
 
 /**
- * primeEval - recursively evaluates a number if its prime or not.
- * @n: Number to be evaluated.
- * @j: The checker number
- *
- * Description: functions as described above.
- * Return: 1 0r 0 respectively.
- */
-int primeEval(int n, int j)
-{
-	if (n < 2)
-		return (0);
-	if (n == 2)
-		return (1);
-	if (j >= 2)
-	{
-		if (n % j > 0)
-			primeEval(n, j - 1);
-	}
-	if (j == 1)
-		return (1);
-}
-/**
- * is_prime_number - Checks if a number is prime or not.
- * @n: Number to be evaluated.
+ * wildcmp - Checks if two strings are identical or not.
+ * @s1: string1 to be evaluated.
+ * @s2: string2 to be compared with.
  *
  * Description: functions as described above.
  * Return: 1(if true) and 0(otherwise).
  */
-int is_prime_number(int n)
+int wildcmp(char *s1, char *s2)
 {
-	return (primeEval(n, n - 1));
+	if (*s2 == '*' && *(s2 + 1) != '\0' && *s1 == '\0')
+		return (0);
+	if (*s1 == '\0' && *s2 == '\0')
+		return (1);
+	if (*s1 == *s2)
+		return (wildcmp(s1 + 1, s2 + 1));
+	if (*s2 == '*')
+		return (wildcmp(s1, s2 + 1) || wildcmp(s1 + 1, s2));
+	return (0);
 }
