@@ -10,8 +10,11 @@
  * and followed by a new line
  * Return: void
  */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
+	(void) argc;
+
 	printf("%s", argv[0]);
+
 	return (0);
 }
