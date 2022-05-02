@@ -9,7 +9,7 @@
  *
  * Description: This program does as specified above
  * and followed by a new line
- * Return: void
+ * Return: 0 if condition is met and 1 otherwise
  */
 int main(int argc, char *argv[])
 {
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
 }
