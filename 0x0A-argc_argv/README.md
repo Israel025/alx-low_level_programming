@@ -4,6 +4,10 @@
 
 ** The 2-args.c program file prints all arguments it receives.
 
+** The 3-mul.c program file multiplies two numbers and print the result of the multiplication, followed by a new line.
+
+
+
 ===============ADVANCED TASK================
 ============================================
 
