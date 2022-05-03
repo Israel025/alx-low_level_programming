@@ -6,7 +6,7 @@
 
 ** The 3-mul.c program file multiplies two numbers and print the result of the multiplication, followed by a new line.
 
-
+** The 4-add.c program file adds positive numbers, prints the result (conditionally) followed by a new line.
 
 ===============ADVANCED TASK================
 ============================================
