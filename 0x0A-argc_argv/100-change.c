@@ -15,7 +15,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, cents, counter;
+	int cents, counter;
 
 	counter = 0;
 
