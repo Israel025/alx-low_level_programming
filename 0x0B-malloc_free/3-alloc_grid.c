@@ -3,8 +3,8 @@
 /**
  * alloc_grid - creates a 2 dimentional array of integers and
  * initializes each grid elements to 0.
- * @size: size of the array.
- * @c: character initialised to.
+ * @width: width of the array.
+ * @height: height of the array.
  *
  * Description: functions as described above.
  * Return: pointer to the array.
