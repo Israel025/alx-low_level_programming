@@ -59,9 +59,9 @@ char *argstostr(int ac, char **av)
 		while (k < ac)
 		{
 			i = 0;
-			while (av[k][i] != NULL)
+			while (av[k][i] != '\0')
 			{
-				newStr[j] = *av[k][i];
+				newStr[j] = av[k][i];
 				i++;
 				j++;
 			}
