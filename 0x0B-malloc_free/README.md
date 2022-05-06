@@ -11,4 +11,6 @@
 =================ADVANCED TASKS====================
 ===================================================
 
+** The 100-argstostr.c funtion program concatenates all the arguments of your program.
+
 
