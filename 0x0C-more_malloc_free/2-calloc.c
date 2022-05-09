@@ -19,7 +19,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	}
 
 	memSpace = malloc(size * nmemb);
-	if (memSpace == NULL || memSpace == 0)
+	if (memSpace == NULL)
 	{
 		return (NULL);
 	}
