@@ -24,7 +24,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	}
 	i = 0;
-	while (i < nmemb * size; i++)
+	while (i < (size * nmemb))
 	{
 		memSpace[i] = 0;
 		i++;
