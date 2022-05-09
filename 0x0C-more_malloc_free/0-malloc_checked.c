@@ -2,7 +2,7 @@
 
 /**
  * malloc_checked - allocates memory using malloc.
- * @b: The amount of memory block (in bytes) 
+ * @b: The amount of memory block (in bytes)
  * to be dynamically allocated.
  *
  * Description: functions as described above.
