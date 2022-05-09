@@ -10,10 +10,10 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int *memSpace, i, j, len;
+	int *memSpace, i;
 
 	memSpace = malloc(size * nmemb);
-        if (memSpace == NULL || memSpace == 0)
+	if (memSpace == NULL || memSpace == 0)
 	{
 		return (NULL);
 	}
