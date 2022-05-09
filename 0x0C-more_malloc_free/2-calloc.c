@@ -23,11 +23,10 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	i = 0;
-	while (i < (size * nmemb))
+
+	for (i = 0; i  < (size * nmemb); i++)
 	{
 		memSpace[i] = 0;
-		i++;
 	}
 	return (memSpace);
 }
