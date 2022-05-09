@@ -12,6 +12,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	int *memSpace, i;
 
+	if (nmemb == 0 || size == 0)
+	{
+		return (NULL);
+	}
+
 	memSpace = malloc(size * nmemb);
 	if (memSpace == NULL || memSpace == 0)
 	{
