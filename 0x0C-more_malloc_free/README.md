@@ -9,3 +9,6 @@
 =================ADVANCED TASKS====================
 ===================================================
 
+** The 100-realloc.c funtion program reallocates a memory block using malloc and free.
+
+
