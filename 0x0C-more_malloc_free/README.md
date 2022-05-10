@@ -11,4 +11,4 @@
 
 ** The 100-realloc.c funtion program reallocates a memory block using malloc and free.
 
-
+** The 101-mul.c funtion program multiplies two positive numbers.
