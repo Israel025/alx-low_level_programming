@@ -4,6 +4,8 @@
 
 ** The 2-calloc.c funtion program allocates memory for an array, using malloc.
 
+** The 3-array_range.c funtion program creates an array of integers.
+
 =================ADVANCED TASKS====================
 ===================================================
 
