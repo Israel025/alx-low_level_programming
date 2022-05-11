@@ -6,6 +6,7 @@
 
 ** The 3-function_like_macro.h header program file computes the absolute value of a number x.
 
-=================ADVANCED TASKS====================
-===================================================
+** The 4-sum.h header program file computes the sum of the numbers x and y.
+
+======================================
 
