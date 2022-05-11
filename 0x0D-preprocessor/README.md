@@ -4,6 +4,8 @@
 
 ** The 2-main.c program file prints the name of the file it was compiled from, followed by a new line.
 
+** The 3-function_like_macro.h header program file computes the absolute value of a number x.
+
 =================ADVANCED TASKS====================
 ===================================================
 
