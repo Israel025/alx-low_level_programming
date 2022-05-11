@@ -5,6 +5,7 @@
  *
  * Description: functions as described above.
  * followed by a new line.
+ * Return: void, no value returned.
  */
 int main(void)
 {
