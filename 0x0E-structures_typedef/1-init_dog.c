@@ -1,32 +1,19 @@
 #include "main.h"
-#include <stdlib.h>
+
 /**
- * _calloc - Allocates memory for an array using malloc.
- * @nmemb: The number of elements to be allocated.
- * @size: The size of elements.
+ * init_dog - Initializes a variable of type struct dog.
+ * @d: The struct's instance.
+ * @name: The dog's name.
+ * @age: The dog's age.
+ * @owner: The dog's owner.
  *
  * Description: functions as described above.
- * Return: the address to the allocated space.
+ * Return: void, nothing is returned.
  */
-void *_calloc(unsigned int nmemb, unsigned int size)
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	char *memSpace;
-	unsigned int i;
+	d->name = name;
+	d->owner = owner;
+	d->age = age;
 
-	if (nmemb == 0 || size == 0)
-	{
-		return (NULL);
-	}
-
-	memSpace = malloc(size * nmemb);
-	if (memSpace == NULL)
-	{
-		return (NULL);
-	}
-
-	for (i = 0; i < (size * nmemb); i++)
-	{
-		memSpace[i] = 0;
-	}
-	return (memSpace);
 }
