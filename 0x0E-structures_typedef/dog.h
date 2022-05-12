@@ -1,5 +1,8 @@
 #ifndef DOG_H_INCLUDED
 #define DOG_H_INCLUDED
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
 
 /**
  * struct dog - A sample dog struct
