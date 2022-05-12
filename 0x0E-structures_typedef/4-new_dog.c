@@ -87,7 +87,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(bruno);
 		return (NULL);
 	}
-	str_copy(aname, name);
+	aname = str_copy(aname, name);
 	bruno->name = aname;
 
 	bruno->age = age;
@@ -99,7 +99,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(bruno);
 		return (NULL);
 	}
-	str_copy(aowner, owner);
+	aowner = str_copy(aowner, owner);
 	bruno->owner = aowner;
 
 	return (bruno);
