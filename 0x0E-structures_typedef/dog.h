@@ -4,6 +4,8 @@
 #include <stdlib.h>
 #include <limits.h>
 
+typedef struct dog dog_t;
+
 /**
  * struct dog - A sample dog struct
  * @name: The dog's name.
