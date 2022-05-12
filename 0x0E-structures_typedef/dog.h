@@ -6,4 +6,4 @@ struct dog
     char *owner;
     float age;
 };
-#endif // DOG_H_INCLUDED
+#endif
