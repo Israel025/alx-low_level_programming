@@ -4,6 +4,7 @@
 
 ** The 2-print_strings.c function program prints strings, followed by a new line.
 
+** The 3-print_all.c function program prints anything.
 =================ADVANCED TASKS====================
 ===================================================
 
