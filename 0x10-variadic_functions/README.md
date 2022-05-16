@@ -2,6 +2,8 @@
 
 ** The 1-print_numbers.c function program prints numbers, followed by a new line.
 
+** The 2-print_strings.c function program prints strings, followed by a new line.
+
 =================ADVANCED TASKS====================
 ===================================================
 
