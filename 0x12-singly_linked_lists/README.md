@@ -4,6 +4,8 @@
 
 ** The 2-add_node.c function program adds a new node at the beginning of a list_t list.
 
+** The 3-add_node_end.c function program adds a new node at the end of a list_t list.
+
 =================ADVANCED TASKS====================
 ===================================================
 
