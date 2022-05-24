@@ -6,6 +6,8 @@
 
 ** The 3-add_node_end.c function program adds a new node at the end of a list_t list.
 
+** The 4-free_list.c function program frees a list_t list.
+
 =================ADVANCED TASKS====================
 ===================================================
 
