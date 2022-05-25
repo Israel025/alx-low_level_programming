@@ -10,8 +10,9 @@
  */
 size_t print_list(const list_t *h)
 {
-	size_t node_count = 0;
+	size_t node_count;
 
+	node_count = 0;
 	if (h == NULL)
 		return (0);
 
@@ -24,6 +25,5 @@ size_t print_list(const list_t *h)
 		h = h->next;
 		node_count++;
 	}
-
 	return (node_count);
 }
