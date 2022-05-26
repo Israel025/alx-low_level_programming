@@ -18,6 +18,8 @@
 
 ** The 9-insert_nodeint.c function program inserts a new node at a given position.
 
+** The 10-delete_nodeint.c function program deletes the node at index index of a listint_t linked list.
+
 =================ADVANCED TASKS====================
 ===================================================
 
