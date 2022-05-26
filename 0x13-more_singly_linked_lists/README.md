@@ -23,4 +23,7 @@
 =================ADVANCED TASKS====================
 ===================================================
 
+** The 100-reverse_listint.c function program reverses a listint_t linked list.
+
+** The 101-print_listint_safe.c function program prints a listint_t linked list.
 
