@@ -29,3 +29,5 @@
 
 ** The 102-free_listint_safe.c function program  frees a listint_t list.
 
+** The 103-find_loop.c function program finds the loop in a linked list.
+
