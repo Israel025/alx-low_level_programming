@@ -27,3 +27,5 @@
 
 ** The 101-print_listint_safe.c function program prints a listint_t linked list.
 
+** The 102-free_listint_safe.c function program  frees a listint_t list.
+
