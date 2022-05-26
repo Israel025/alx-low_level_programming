@@ -16,6 +16,8 @@
 
 ** The 8-sum_listint.c function program returns the sum of all the data (n) of a listint_t linked list.
 
+** The 9-insert_nodeint.c function program inserts a new node at a given position.
+
 =================ADVANCED TASKS====================
 ===================================================
 
