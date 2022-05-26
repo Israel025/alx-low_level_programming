@@ -2,30 +2,6 @@
 #include "lists.h"
 
 /**
- * free_listp - Frees a linkedlist (sets head to NULL).
- * @head: The head of the list.
- *
- * Description: functions as described above.
- * Return: void, nothing is returned.
- */
-void free_listp(listp_t **head)
-{
-	listp_t *temp;
-	listp_t *curr;
-
-	if (head != NULL)
-	{
-		curr = *head;
-		while ((temp = curr) != NULL)
-		{
-			curr = curr->next;
-			free(temp);
-		}
-		*head = NULL;
-	}
-}
-
-/**
  * free_listint_safe -frees a linked list safely.
  * @h: The head of the singly linked list.
  *
