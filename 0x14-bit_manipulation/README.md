@@ -8,7 +8,7 @@
 
 ** The 4-clear_bit.c function program sets the value of a bit to 0 at a given index.
 
-
+** The 5-flip_bits.c function program returns the number of bits you would need to flip to get from one number to another.
 
 =================ADVANCED TASKS====================
 ===================================================
