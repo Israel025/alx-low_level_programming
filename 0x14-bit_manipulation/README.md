@@ -13,4 +13,6 @@
 =================ADVANCED TASKS====================
 ===================================================
 
+** The 100-get_endianness.c function program checks the endianness.
+
 
