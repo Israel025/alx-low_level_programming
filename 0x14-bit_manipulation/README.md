@@ -6,6 +6,8 @@
 
 ** The 3-set_bit.c function program sets the value of a bit to 1 at a given index.
 
+** The 4-clear_bit.c function program sets the value of a bit to 0 at a given index.
+
 
 
 =================ADVANCED TASKS====================
