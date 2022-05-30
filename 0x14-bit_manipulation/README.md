@@ -4,6 +4,8 @@
 
 ** The 2-get_bit.c function program returns the value of a bit at a given index.
 
+** The 3-set_bit.c function program sets the value of a bit to 1 at a given index.
+
 
 
 =================ADVANCED TASKS====================
