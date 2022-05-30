@@ -15,4 +15,4 @@
 
 ** The 100-get_endianness.c function program checks the endianness.
 
-
+** The 101-password file contains the password for the crackme3 program.
