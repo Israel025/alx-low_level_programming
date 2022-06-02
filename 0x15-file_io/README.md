@@ -9,4 +9,4 @@
 =================ADVANCED TASKS====================
 ===================================================
 
-
+** The 100-elf_header.c function program displays the information contained in the ELF header at the start of an ELF file.
